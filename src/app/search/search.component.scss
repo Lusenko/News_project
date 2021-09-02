@@ -1,0 +1,40 @@
+form{
+
+  label{
+    padding-right: .7em;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  input{
+    width: 200px;
+    height: 25px;
+
+    border-radius: 10px;
+    border: none;
+
+    box-shadow: 0 0 4px black;
+  }
+  button{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: .4em;
+    margin-left: 1em;
+
+    border-radius: 8px;
+    border: none;
+
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+
+    .block-with-news{
+      border: 1px solid gray;
+      width: 150px;
+      height: 150px;
+      margin: .7em;
+    }
+  }
+}

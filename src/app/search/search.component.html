@@ -1,0 +1,15 @@
+<form [formGroup]="formGroup" >
+  <label for="historyNews">News:</label>
+  <input type="text" id="historyNews" formControlName="inputText">
+  <button>Click</button>
+
+  <div class="container">
+    <div *ngFor="let cards of news" class="block-with-news">
+      <div>{{cards.start_year}}</div>
+      <div>{{cards.country}}</div>
+      <div>{{cards.title}}</div>
+      <div>{{cards.id}}</div>
+    </div>
+  </div>
+</form>
+
